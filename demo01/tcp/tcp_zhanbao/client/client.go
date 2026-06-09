@@ -28,3 +28,7 @@ func TcpClient() {
 	defer conn.Close()
 	log.Println("client connected")
 }
+
+func main() {
+	TcpClient()
+}

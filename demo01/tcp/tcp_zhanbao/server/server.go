@@ -61,3 +61,7 @@ func TcpStick() {
 		}
 	}
 }
+
+func main() {
+	TcpStick()
+}
